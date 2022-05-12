@@ -1,6 +1,11 @@
 #  
 
-This template should help get you started developing with Vue 3 in Vite.
+This is Project for the Shopping website create with help of Woocommerce+wordpress and Vuejs
+
+In this Application we are using [Woocommerce API's](https://www.letscms.com/documents/api/woocommerce-business-to-costumer-rest-api.html) That is using in this one application
+
+Intatlation process has been given in the documentation
+
 
 ## Recommended IDE Setup
 
