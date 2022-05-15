@@ -59,10 +59,15 @@ export default {
           </carousel>
         </div>
         <div class="row">
+          <div class="details">
+                <h5>{{ product.name }}</h5>
+          </div>
+        </div>
+        <div class="row">
           <div class="desc-review">
             <b-tabs content-class="mt-3" class="des-tab">
-              <b-tab title="First" active><p>I'm the first tab</p></b-tab>
-              <b-tab title="Second"><p>I'm the second tab</p></b-tab>
+              <b-tab title="Description" active><p>{{product.description}}</p></b-tab>
+              <b-tab title="Review"><p>I'm the second tab</p></b-tab>
               
             </b-tabs>
           </div>
@@ -116,5 +121,8 @@ export default {
 }
 .carousel__slide img {
   margin-bottom: 0px !important;
+}
+.product-details .details{
+  margin-top:10px;
 }
 </style>
