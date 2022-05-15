@@ -1,0 +1,108 @@
+
+/*===================
+	product details
+===================*/
+.product-details .entry {
+	position: relative;
+}
+
+.product-details .entry .big-image img {
+	width: 100%;
+	height: 100%;
+	/* box-shadow: 0 2px 2px 0 transparent,0 1px 5px 0 rgba(0,0,0,.24),0 3px 1px -2px transparent; */
+	padding: 0;
+	margin-bottom: 0px;
+	border: none;
+}
+
+.big-image .col.s12 {
+	padding: 0;
+}
+
+.product-details .entry img {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #ddd;
+	padding: 0px 5px;
+	margin-bottom: 5px;
+}
+
+.product-details .entry .tabs {
+	height: auto;
+}
+
+.product-details .entry .tabs a.active {
+	border-bottom: 2px solid #1e256e;
+}
+
+.product-details .entry .tabs a {
+	border: 0 solid #1e256e;
+}
+
+.product-details .entry .tabs img {
+	border: 0;
+}
+
+.product-details .entry .tabs .indicator {
+	height: 0;
+	background: transparent;
+}
+
+.product-details .entry .tabs .tab {
+	height: auto;
+}
+
+.product-details .details .button  {
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.product-details .desc-review {
+	margin-top: 30px;
+    padding-left: 0px;
+    padding-right:0px;;
+}
+
+.product-details .desc-review .tabs {
+	height: 30px;
+}
+
+.product-details .desc-review .tabs .indicator {
+	background: #1e256e;
+}
+
+.product-details .desc-review .tab {
+	height: 30px;
+	text-transform: none;
+}
+
+.review .comment .content .entry {
+	overflow: hidden;
+	margin-bottom: 22px;
+}
+
+.review .comment .content p {
+	margin: 8px 0;
+}
+
+.review .comment .content img {
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 15px;
+	border-radius: 50%;
+}
+
+.review .comment .content {
+	border-bottom: 1px solid #eee;
+	padding-top: 0px;
+	margin-top: 10px;
+}
+
+.review .post-review {
+	margin-top: 20px;
+}
+
+.review .post-review h6 {
+	margin-bottom: 15px;
+}
